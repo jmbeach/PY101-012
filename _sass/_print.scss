@@ -1,0 +1,8 @@
+@media print {
+	h1,.post-title { font-size:20pt }
+	.post-content h2 { font-size:14pt }
+	li,p,span,td { font-size:11pt }
+	img {max-width:300px;max-height:300px;}
+	.site-header div.trigger {display:none}
+	.downloadPdf {display:none}
+}

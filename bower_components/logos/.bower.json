@@ -1,0 +1,14 @@
+{
+  "name": "logos",
+  "homepage": "https://github.com/gilbarbara/logos",
+  "_release": "5bf7e694a9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5bf7e694a9647dca3c375f23fc7730c4c9c6f60a"
+  },
+  "_source": "git://github.com/gilbarbara/logos.git",
+  "_target": "*",
+  "_originalSource": "gilbarbara/logos",
+  "_direct": true
+}

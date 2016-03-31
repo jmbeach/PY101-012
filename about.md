@@ -4,12 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This website contains notes and study materials (such as Quizlets) for the Psychology 101 section 012 class at the University of Alabama, instructed by Mr. Joseph Elmore. This site is maintained by Jared Beach, a student taking the class.
+If you have any questions about this website or any PY 101 related questions, please e-mail Jared at [jmbeach1@crimson.ua.edu](mailto:Jared%20Beach(jmbeach1@crimson.ua.edu)).

@@ -204,3 +204,16 @@ pre {
         }
     }
 }
+.icon-f {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: rgba(0, 0, 0, 0.42);
+        }
+    }
+}
