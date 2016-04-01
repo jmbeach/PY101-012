@@ -4,6 +4,11 @@ title: Week 11 - Day 2 (Ch 13 Pt 2 Emotions & Stress)
 ---
 
 {% include download.html %}
+{% include video-player.html %}
+
+<script>
+new AudioNavigator({videoId:'QgroMcSYrfQ'});
+</script>
 
 [Quizlet on terms from this lecture](https://quizlet.com/_25n1bl)
 
@@ -35,7 +40,9 @@ Audio 0:08:00
 ![yerkes-dodson](http://i.imgur.com/GXAoyQF.png)
 
 ## An Example: Cold Pressor Task
+
 Audio 0:09:40
+
 + Stressor
   + Ice-cold water
 + Stress
@@ -44,10 +51,12 @@ Audio 0:09:40
 + Coping Response
   + Distraction, talking
   + Withdrawing hand from water
+
 + ![stressor](http://i.imgur.com/ckWxhue.png)
 
 ## General Adaptation Syndrome
 Audio 0:12:00
+
 + Consistent pattern of responses to stress that consists of three stages:
   + Alarm: emergency reaction that prepares body to fight or flee
     + Body is most likely to be exposed to infection & disease
@@ -56,15 +65,20 @@ Audio 0:12:00
   + Exhaustion: variety of physiological and immune systems fail
     + Organs weak before stress are first to fail
   + Audio 0:14:45
+
   + ![stages](http://i.imgur.com/kiaRrAy.png)
 
 ## Newer Models
+
 HPA axis
+
 + Audio 0:16:50
+
 + Hypothalamus-pituitary-adrenal cortex axis
 + A system activated to energize the body to respond to stressors
 + The hypothalamus sends chemical messengers to the pituitary gland
 + The pituitary gland prompts the adrenal cortex to produce cortisol and other hormones
+
 + ![stress new models](http://i.imgur.com/Ljt6Fam.png)
 
 ## Stress Responses
@@ -86,6 +100,7 @@ Audio 0:24:30
 
 ## Stress Responses
 Audio 0:28:00
+
 + Over the long term stress hormones negatively affect health
   + Chronic stress, especially psychosocial stress, is associated with the initiation and progression of a wide variety of diseases, from cancer to AIDS to cardiac disease
     + e.g., stressful jobs, poverty
@@ -93,6 +108,7 @@ Audio 0:28:00
 
 ## Stress & Heart Disease
 Audio 0:33:10
+
 + Key predictors are health behaviors and personality traits related to the way people respond to stress 
   + Health behaviors: 
     + Lack of exercise, obesity, smoking 
@@ -102,8 +118,11 @@ Audio 0:33:10
 + Negative traits (e.g., hostility) and states (e.g., depression) combine to promote coronary heart disease
 
 # Coping With Stress
-Audio 0:34;30
+
+Audio 0:34:30
+
 ![](http://i.imgur.com/Tg85aq6.png)
+
 + To deal effectively with stressors we use cognitive appraisals that link feelings with thoughts
 + Two-part cognitive appraisal process: 
   + Primary appraisals: Decide whether stimuli are stressful, benign, or irrelevant
