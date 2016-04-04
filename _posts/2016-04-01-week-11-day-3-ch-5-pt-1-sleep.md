@@ -3,6 +3,16 @@ layout: post
 title: Week 11 - Day 3 (Ch 5 pt 1 Sleep)
 ---
 
+{% include download.html %}
+
+{% include video-player.html %}
+
+<script>
+new AudioNavigator({videoId:"SXGA5A41d9o"});
+</script>
+
+[Quizlet on terms from this lecture](https://quizlet.com/_25v1qe)
+
 Audio 0:02:10 Announcements
 
 # Finishing up stress

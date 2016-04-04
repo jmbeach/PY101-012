@@ -1,5 +1,15 @@
+{% assign fileanddate=page.path | remove: "_posts/" | remove: ".md" %}
+{% assign date=fileanddate | slice: 0,11 %}
+{% assign filename=fileanddate | remove:{{date}} %}
+
+<p class="downloadDoc"> Download Word (docx): 
+<a target="_blank" href="{{site.baseurl}}/assets/{{filename}}.docx">
+		<span class="icono-document"></span>
+</a>
+</p>
+
 <p class="downloadPdf"> Download PDF: 
-<a target="_blank" href="{{site.baseurl}}/assets/{{page.title}}.pdf">
+<a target="_blank" href="{{site.baseurl}}/assets/{{filename}}.pdf">
 		<span class="icono-document"></span>
 </a>
 </p>
