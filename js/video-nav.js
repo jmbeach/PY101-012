@@ -54,46 +54,49 @@ function AudioNavigator(opts) {
   }
 
   var audioTags;
-  var tags;
   self.currentTag = 0;
   var findAudioTag = function() {
-		var nextTag = tags[self.currentTag+1];
-		var previousTag = tags[self.currentTag-1];
-    if (nextTag && self.player.getCurrentTime() > tags[self.currentTag + 1].toSeconds()) {
+		var nextTag = self.tags[self.currentTag+1];
+		var previousTag = self.tags[self.currentTag-1];
+    if (nextTag && self.player.getCurrentTime() > self.tags[self.currentTag + 1].toSeconds()) {
       self.currentTag++;
-			nextTag = tags[self.currentTag+1];
+			nextTag = self.tags[self.currentTag+1];
       // look ahead
-      if (nextTag && self.currentTag < tags.length &&
-        self.player.getCurrentTime() > tags[self.currentTag + 1].toSeconds()) {
+      if (nextTag && self.currentTag < self.tags.length &&
+        self.player.getCurrentTime() > self.tags[self.currentTag + 1].toSeconds()) {
         findAudioTag();
       }
     } else if (previousTag && self.currentTag > 0 &&
       self.player.getCurrentTime() < previousTag.toSeconds()) {
       self.currentTag--;
-			previousTag = tags[self.currentTag-1];
+			previousTag = self.tags[self.currentTag-1];
       if (self.currentTag > 0 &&
-        self.player.getCurrentTime() < tags[self.currentTag - 1].toSeconds()) {
+        self.player.getCurrentTime() < self.tags[self.currentTag - 1].toSeconds()) {
         findAudioTag();
       }
     }
   }
   $(function() {
-    audioTags = $("p, span").filter(function(i, p) {
+		var filter = function(i,p) {
+			if ($(p).children().length > 0) {
+				return false;
+			}
       return $(p).html().indexOf("Audio") > -1;
-    });
-    tags = [];
+		}
+    audioTags = $("p, span, li").filter(filter);
+    self.tags = [];
     for (var i = 0; i < audioTags.length; i++) {
       var tag = audioTags[i];
-      tags.push(new AudioTag($(tag)));
+      self.tags.push(new AudioTag($(tag)));
     }
     setInterval(function() {
 			var previousAudioTag = self.currentTag;
 			findAudioTag(false);
       if (previousAudioTag != self.currentTag) {
         $("html, body").animate({
-          scrollTop: tags[self.currentTag].element.offset().top - 100
+          scrollTop: self.tags[self.currentTag].element.offset().top - 100
         }, 500);
-        tags[self.currentTag].element.effect("highlight", {
+        self.tags[self.currentTag].element.effect("highlight", {
           color: "#669966"
         }, 3000);
       }

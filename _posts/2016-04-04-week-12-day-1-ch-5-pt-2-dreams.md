@@ -5,6 +5,12 @@ title: Week 12 - Day 1 (Ch 5 pt 2 - Dreams & Drugs)
 
 {% include download.html %}
 
+{% include video-player.html %}
+
+<script>
+new AudioNavigator({videoId:"kHxVyANIUdg"});
+</script>
+
 [Quizlet on terms from this lecture](https://quizlet.com/_25xo1e)
 
 # Dreams
@@ -48,6 +54,7 @@ Audio 0:05:00
 ## Cognitive Theory
 
 Audio 0:15:25
+
 + Dreaming is similar to the activity we engage in when we are awake
 	+ Construct simulations of the real world
 	+ Draw on memories, knowledge, metaphors, and assumptions
