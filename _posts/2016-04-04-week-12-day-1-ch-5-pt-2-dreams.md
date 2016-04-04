@@ -72,6 +72,7 @@ Audio 0:15:25
 # Chapter 5 (Part 2): Body Rhythms & Mental States
 
 # Drugs
+
 ## Many People Use Drugs
 + Audio 0:32:00
 + Drugs have been used throughout history to create altered states
