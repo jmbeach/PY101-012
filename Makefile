@@ -1,4 +1,4 @@
-all: pdf docx
+all: 
 pdf:
 	./allpdf.sh
 docx:
