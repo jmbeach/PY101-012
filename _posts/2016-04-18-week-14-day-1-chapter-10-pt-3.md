@@ -5,12 +5,12 @@ title: Week 14 - Day 1 (Chapter 10 pt 3)
 
 <a href="https://quizlet.com/_27jv7d">Quizlet</a>
 
-{ % include download.html %}
+{% include download.html %}
 
-{ % include video-player.html %}
+{% include video-player.html %}
 
 <script>
-new AudioNavigator({videoId:"JmkesfP2"});
+new AudioNavigator({videoId:"JmkesfP2-fQ"});
 </script>
 
 # Announcements
