@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research Paper Alternative Instructioins
+title: Research Paper Alternative Instructions
 ---
 
 The following is a guide to signing up and getting started on the research 
