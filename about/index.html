@@ -50,6 +50,8 @@
         
           
         
+          
+        
         <a class="page-link" href="https://quizlet.com/class/2412410/">Quizlets</a>
         <a class="page-link" href="http://researchpool.psych.ua.edu/">Research</a>
         <a class="page-link" href="https://calendar.google.com/calendar/embed?src=ioed8v0sm1d4hooimq4e12eq7c%40group.calendar.google.com&ctz=America%2FChicago">Calendar</a>
@@ -60,9 +62,27 @@
 
 </header>
 
+    
 
     <div class="page-content">
       <div class="wrapper">
+        <!-- Html Elements for Search -->
+    <div id="search-container">
+    <input type="text" id="search-input" placeholder="search...">
+    <ul id="results-container"></ul>
+    </div>
+    <script>
+      $(function() {
+        SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          json: '/PY101-012/search.json',
+        })
+      });
+    </script>
+    
+    <!-- Script pointing to jekyll-search.js -->
+    <script src="/PY101-012/bower_components/simple-jekyll-search/dest/jekyll-search.js" type="text/javascript"></script>
         <article class="post">
 
   <header class="post-header">

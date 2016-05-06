@@ -50,6 +50,8 @@
         
           
         
+          
+        
         <a class="page-link" href="https://quizlet.com/class/2412410/">Quizlets</a>
         <a class="page-link" href="http://researchpool.psych.ua.edu/">Research</a>
         <a class="page-link" href="https://calendar.google.com/calendar/embed?src=ioed8v0sm1d4hooimq4e12eq7c%40group.calendar.google.com&ctz=America%2FChicago">Calendar</a>
@@ -60,9 +62,27 @@
 
 </header>
 
+    
 
     <div class="page-content">
       <div class="wrapper">
+        <!-- Html Elements for Search -->
+    <div id="search-container">
+    <input type="text" id="search-input" placeholder="search...">
+    <ul id="results-container"></ul>
+    </div>
+    <script>
+      $(function() {
+        SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          json: '/PY101-012/search.json',
+        })
+      });
+    </script>
+    
+    <!-- Script pointing to jekyll-search.js -->
+    <script src="/PY101-012/bower_components/simple-jekyll-search/dest/jekyll-search.js" type="text/javascript"></script>
         <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -306,6 +326,62 @@
 
         <h2>
           <a class="post-link" href="/PY101-012/2016/02/15/week-6-day-1.html">Week 6 - Day 1 (Ch 6-2 Sensation and Perception)</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Feb 8, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/PY101-012/2016/02/08/week-5-day-1-transition-to-old-age.html">Week 5 - Day 1 (Transition to Old Age)</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Feb 5, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/PY101-012/2016/02/05/week-4-day-3-morality.html">Week 4 - Day 3 (Morality)</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Feb 3, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/PY101-012/2016/02/03/week-4-day-2-attachment-styles-how-children-learn-about-the-world.html">Week 4 Day 2 - Attachment Styles & How children learn about the world</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Feb 1, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/PY101-012/2016/02/01/week-4-day-1-development-and-adaptation.html">Week 4 Day 1 - Development and Adaptation</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Jan 29, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/PY101-012/2016/01/29/week-3-day-3.html">Week 3 - Day 3</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Jan 27, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/PY101-012/2016/01/27/week-3-day-2.html">Week 3 - Day 2</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Jan 25, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/PY101-012/2016/01/25/week-3-day-1.html">Week 3 - Day 1</a>
         </h2>
       </li>
     
